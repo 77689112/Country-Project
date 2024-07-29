@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header {
+    background-color: #00000000; /* Red from the Malaysian flag */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ffffff00;
+    border: 1px solid #dddddd04;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto; /* Adjusts height automatically to keep aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+
+.text-box {
+    padding: 20px;
+    flex: 1;
+    background-color: #00000000;
+    color: #ffffff;
+}
+
+.text-box h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color:   #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
